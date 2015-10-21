@@ -1,20 +1,18 @@
 //// Midterm code for 59CST112
 
 /**************************************************************
-BE SURE TO CHANGE THE NEXT SEVERAL LINES, USING YOUR REAL NAME.
+REAL NAME.
 
     MY FIRST NAME IS......Evelyn
     MY MIDDLE NAME IS.....Rosita
     MY LAST NAME IS.......Levine
     
-PICK 3 WORDS THAT START WITH YOUR INITIALS, using lower case letters:
+ 3 WORDS THAT START WITH MY INITIALS, using lower case letters:
 
-    first word............Eevee
-    second word...........Rose
-    third word............Leaf
+    first word............eevee
+    second word...........rose
+    third word............reaf
     
-USE THESE 3 WORDS TO NAME ALL VARIABLES FOR 3 POOL BALLS.
-(You may abbreviate any words, but start with same letter.)
 ***************************************************************/
 
 
