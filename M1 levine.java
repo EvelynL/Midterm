@@ -160,9 +160,9 @@ void show() {
 void buttons() {
     
  //reset button
-  fill(0);
-  rect(10,10,50,50);
-  text("Reset", 60,30);
+ // fill(0);
+  //rect(10,10,50,50);
+ // text("Reset", 60,30);
 
 
 }
