@@ -2,13 +2,11 @@
 
 /**************************************************************
 REAL NAME.
-
     MY FIRST NAME IS......Evelyn
     MY MIDDLE NAME IS.....Rosita
     MY LAST NAME IS.......Levine
     
  3 WORDS THAT START WITH MY INITIALS, using lower case letters:
-
     first word............eevee
     second word...........rose
     third word............reaf
@@ -82,7 +80,12 @@ void reset(){
     
   //reset collision to 0.
     collisions=0;
+    
+  
 }
+
+
+  
 
 //// NEXT FRAME:  table, bounce off walls, collisions, show all
 void draw() {
@@ -265,7 +268,24 @@ void mousePressed() {
   //add mice and move.
   if ( mouseX>380 && mouseX<480 && mouseY>40 && mouseY<65){
    mouse=true;
+   
+   //clicking the ball
+  if ( dist(mouseX, mouseY, eX, eY) < 15){
+    eX = random ( middle, right);  eY = random ( top, bottom);
+     eDX=  random( 1,3 );     eDY=  random( 1,3 );
   }
+  if ( dist(mouseX, mouseY, rX, rY) < 15){
+    rX = random ( middle, right);  rY = random ( top, bottom);
+    rDX=  random( 1,3 );     rDY=  random( 1,3 );
+  }
+    if ( dist(mouseX, mouseY, lX, lY) < 15 ){
+    lX = random ( middle, right);  lY = random ( top,bottom);
+    lDX=  random( 1,3 );     lDY=  random( 1,3 );
+  }
+   
+  }
+
+
 
 }
 
