@@ -47,7 +47,7 @@ int score=0,m=0,k=0;
 
 //// SETUP:  size and table
 void setup() {
-    size( 640, 480 );          
+    size( 700, 500 );          
     left=50;
     right=width-50;
     top=150;
